@@ -1,0 +1,112 @@
+.img-style {
+  max-width: 30%;
+  height: 50%;
+  margin: auto;
+  display: flex
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alter-img-style {
+  max-width: 6%;
+  height: 6%;
+  display: flex;
+  border: 2px solid #f0f0f0;
+  margin: 5px;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.product-container-size {
+  border: 2px solid #f0f0f0;
+  min-height: 48px;
+  min-width: 48px;
+  margin: 5px;
+  /* color: black; */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.price-text-discount {
+  display: flex;
+  align-items: center;
+  color: green;
+  margin: 0 5px;
+  padding: 0 5px
+}
+
+.price-text-discount-cut {
+  display: flex;
+  align-items: center;
+  text-decoration: line-through;
+  margin: 0 5px;
+  padding: 0 5px;
+
+}
+
+.comments {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-bottom: 2px solid grey;
+  padding: 7px;
+  margin: 0 50% 0 40px;
+}
+
+.comments p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.personal-comment {
+  background: green;
+  color: white;
+  border-radius: 40px;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin: 1px 5px;
+}
+
+.commentBox {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d8d7d7;
+  height: 4rem;
+  width: 50%;
+}
+
+.commentBox>input {
+  display: flex;
+}
+
+.inputComment {
+  display: flex;
+  width: 55%;
+  border: none;
+  font-size: larger;
+  margin-right: 4px;
+}
+
+.rateing {
+  display: flex;
+  width: 5%;
+  border: none;
+  font-size: larger;
+  margin-right: 12px;
+}

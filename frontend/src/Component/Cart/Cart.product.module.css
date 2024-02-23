@@ -1,0 +1,15 @@
+
+
+.ckeckboxBeforChecked {
+  margin-bottom: 4px;
+  padding: 3px;
+  border-bottom: 1px dashed black;
+}
+
+
+.ckeckboxafterCheckef {
+  margin-bottom: 4px;
+  background: green;
+  padding: 3px;
+  border-bottom: 1px dashed black;
+}

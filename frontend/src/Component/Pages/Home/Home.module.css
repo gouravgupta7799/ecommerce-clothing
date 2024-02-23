@@ -1,0 +1,48 @@
+.home-container {
+  width: 100% !important;
+  height: 240px;
+  /* background-color: #6c757d; */
+  background-color: #777;
+  width: 100%;
+  background-repeat: no-repeat repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  font-size: 4rem;
+}
+
+.btn {
+  display: block;
+  border: 2px solid #56CCF2;
+  padding: 15px 30px;
+  font-size: 23px;
+  font-weight: 200;
+  margin: auto;
+  background: inherit;
+  cursor: pointer;
+  color: white;
+}
+
+.playBtn {
+  cursor: pointer;
+  display: block;
+  border: 2px solid #56CCF2;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 200;
+  margin: 20px auto;
+  background: inherit;
+  color: #56CCF2;
+}
+
+.list-group-btn {
+  background: #ff3f6c !important;
+  border: 1px solid #ff3f6c !important;
+}
+
+.list-group-btn:hover {
+  background-color: rgb(233, 61, 103) !important;
+}
